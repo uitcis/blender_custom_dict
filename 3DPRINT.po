@@ -1,0 +1,472 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 4.2.0 Release Candidate (b'988bf2b88f3b')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-15 07:57+0000\n"
+"PO-Revision-Date: 2024-07-14 09:06+0000\n"
+"Last-Translator: Ye Gui <ziweidao@foxmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.blender.org/projects/"
+"blender-ui/ui/zh_Hans/>\n"
+"Language: zh_HANS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.5.2\n"
+"<<<<<< .minX-Generator: Poedit 1.6.9\n"
+"=====X-Generator: Poedit 1.6.9"
+
+# 3DPrintToolbox
+msgid "3D Print Toolbox"
+msgstr "3D打印工具箱"
+
+# 3DPrintToolbox
+msgid "Utilities for 3D printing"
+msgstr "用于3D打印的实用工具"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Align (rotate) object to XY plane"
+msgstr "对齐(旋转)至 XY 平面"
+
+# 3DPrintToolbox
+msgid "Rotate object so the selected faces lie, on average, parallel to the XY plane"
+msgstr "旋转物体，使所选面均匀地平行于 XY 平面"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Check All"
+msgstr "3D 打印 - 全部检查"
+
+# 3DPrintToolbox
+msgid "Run all checks"
+msgstr "运行所有的选项"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Check Degenerate"
+msgstr "3D 打印 - 检查退化状况"
+
+# 3DPrintToolbox
+msgid "Check for degenerate geometry that may not print properly (zero area faces, zero length edges)"
+msgstr "检测可能无法正确打印的退化几何(即面积为零的面、长度为零的边)"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Check Distorted Faces"
+msgstr "3D 打印 - 检查畸形面"
+
+# 3DPrintToolbox
+msgid "Check for non-flat faces"
+msgstr "检查不平面"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Check Intersections"
+msgstr "3D 打印 - 检查交叉性"
+
+# 3DPrintToolbox
+msgid "Check geometry for self intersections"
+msgstr "检查几何体的自交叉"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Check Overhang"
+msgstr "3D 打印 - 检查悬垂"
+
+# 3DPrintToolbox
+msgid "Check faces don't overhang past a certain angle"
+msgstr "检查未悬垂在指定角度以外的面"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Check Sharp"
+msgstr "3D 打印 - 检查锐边"
+
+# 3DPrintToolbox
+msgid "Check edges are below the sharpness preference"
+msgstr "检查边线的锐度是否低于设置值"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Check Solid"
+msgstr "3D 打印 - 检查实体性"
+
+# 3DPrintToolbox
+msgid "Check for geometry is solid (has valid inside/outside) and correct normals"
+msgstr "检查几何是否为实体(有正确的里/外侧)且法向正确"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Check Thickness"
+msgstr "3D 打印 - 检查厚度"
+
+# 3DPrintToolbox
+msgid "Check geometry is above the minimum thickness preference (relies on correct normals)"
+msgstr "检查几何体厚度是否高于最低设置值"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Clean Distorted"
+msgstr "3D 打印 - 清除畸形元素"
+
+# 3DPrintToolbox
+msgid "Tessellate distorted faces"
+msgstr "经过细分畸变的面"
+
+# 3DPrintToolbox
+msgid "Limit for checking distorted faces"
+msgstr "用于检查畸形面的限值"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Clean Non-Manifold"
+msgstr "3D 打印 - 清除非流形"
+
+# 3DPrintToolbox
+msgid "Cleanup problems, like holes, non-manifold vertices and inverted normals"
+msgstr "清理问题，如孔洞、非流形顶点和反转的法向"
+
+# 3DPrintToolbox
+msgid "Minimum distance between elements to merge"
+msgstr "合并元素之间的最小间隔"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Export"
+msgstr "3D 打印 - 导出"
+
+# 3DPrintToolbox
+msgid "Export selected objects using 3D Print settings"
+msgstr "用 3D 打印选项导出选中的物体"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Hollow"
+msgstr "挖空"
+
+# 3DPrintToolbox
+msgid "Create offset surface"
+msgstr "创建偏移面"
+
+# 3DPrintToolbox
+msgid "Hollow Duplicate"
+msgstr "挖空副本"
+
+# 3DPrintToolbox
+msgid "Create hollowed out copy of the object"
+msgstr "创建物体挖空后的副本"
+
+# 3DPrintToolbox
+msgid "Surface offset in relation to original mesh"
+msgstr "相对于原始网格的表面偏移量"
+
+# 3DPrintToolbox
+msgid "Where the offset surface is created relative to the object"
+msgstr "相对于物体的偏移面创建位置"
+
+# 3DPrintToolbox
+msgid "Offset surface inside of object"
+msgstr "向物体内侧偏移表面"
+
+# 3DPrintToolbox
+msgid "Offset surface outside of object"
+msgstr "向物体外侧偏移表面"
+
+# 3DPrintToolbox
+msgid "Voxel size"
+msgstr "体素大小"
+
+# 3DPrintToolbox
+msgid "Size of the voxel used for volume evaluation. Lower values preserve finer details"
+msgstr "用于体积计算的体素大小。取值越小则细节保留越好"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Info Area"
+msgstr "3D 打印 - 面积信息"
+
+# 3DPrintToolbox
+msgid "Report the surface area of the active mesh"
+msgstr "计算活动网格的表面积"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Info Volume"
+msgstr "3D 打印 - 体积信息"
+
+# 3DPrintToolbox
+msgid "Report the volume of the active mesh"
+msgstr "计算活动网格的体积"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Scale to Bounds"
+msgstr "缩放至边界框"
+
+# 3DPrintToolbox
+msgid "Scale edit-mesh or selected-objects to fit within a maximum length"
+msgstr "缩放编辑网格或选中物体以适合最大长度"
+
+# 3DPrintToolbox
+msgid "Length Limit"
+msgstr "长度限值"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Scale to Volume"
+msgstr "缩放至空间体积"
+
+# 3DPrintToolbox
+msgid "Scale edit-mesh or selected-objects to a set volume"
+msgstr "缩放编辑网格或选中物体至设定体积"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "3D Print Select Report"
+msgstr "3D 打印 - 选择反馈信息"
+
+# 3DPrintToolbox
+msgid "Select the data associated with this report"
+msgstr "选择与此反馈信息关联的数据"
+
+# 3DPrintToolbox
+msgid "3D Print"
+msgstr "3D 打印"
+
+# 3DPrintToolbox
+msgid "Analyze"
+msgstr "分析"
+
+# 3DPrintToolbox
+msgid "Exported: {!r}"
+msgstr "已导出: {!r}"
+
+# 3DPrintToolbox
+msgid "Multiple selected objects. Only the active one will be evaluated"
+msgstr "多选物体，仅活动物体被计算"
+
+# 3DPrintToolbox
+msgid "Triangulated {} faces"
+msgstr "已三角化 {} 个面"
+
+# 3DPrintToolbox
+msgid "Modified: {:+} vertices, {:+} edges, {:+} faces"
+msgstr "已修改: {:+} 顶点, {:+} 边, {:+} 面"
+
+# 3DPrintToolbox
+msgid "Scaled by {}{}"
+msgstr "按 {}{} 缩放"
+
+# 3DPrintToolbox
+msgid "Scaled by {}"
+msgstr "按 {} 缩放"
+
+# 3DPrintToolbox
+msgid "At least one mesh object must be selected"
+msgstr "必须至少选中一个网格物体"
+
+# 3DPrintToolbox
+msgid "Object has zero volume"
+msgstr "物体没有体积"
+
+# 3DPrintToolbox
+msgid "Object has zero bounds"
+msgstr "物体没有边界"
+
+# 3DPrintToolbox
+msgid "Report is out of date, re-run check"
+msgstr "报告已过期, 请重新执行检查"
+
+# 3DPrintToolbox
+msgid "Skipping object {}. No faces selected"
+msgstr "跳过物体 {}。无选中面"
+
+# 3DPrintToolbox
+msgid "Skipping some objects. No faces selected. See terminal"
+msgstr "跳过某些物体。无选中面。详情见终端"
+
+# 3DPrintToolbox
+msgid "Make sure target mesh has closed surface and offset value is less than half of target thickness"
+msgstr "确保目标物体具有封闭的表面，且偏移值小于目标厚度的一半"
+
+# 3DPrintToolbox
+msgid "Volume: {}³"
+msgstr "体积: {}³"
+
+# 3DPrintToolbox
+msgid "Area: {}²"
+msgstr "面积: {}²"
+
+# 3DPrintToolbox
+msgid "Non Manifold Edges: {}"
+msgstr "非流形边: {}"
+
+# 3DPrintToolbox
+msgid "Bad Contiguous Edges: {}"
+msgstr "错误连续边: {}"
+
+# 3DPrintToolbox
+msgid "Intersect Face: {}"
+msgstr "相交面: {}"
+
+# 3DPrintToolbox
+msgid "Zero Faces: {}"
+msgstr "零面: {}"
+
+# 3DPrintToolbox
+msgid "Zero Edges: {}"
+msgstr "零边: {}"
+
+# 3DPrintToolbox
+msgid "Non-Flat Faces: {}"
+msgstr "非平面: {}"
+
+# 3DPrintToolbox
+msgid "Thin Faces: {}"
+msgstr "薄面: {}"
+
+# 3DPrintToolbox
+msgid "Sharp Edge: {}"
+msgstr "锐边: {}"
+
+# 3DPrintToolbox
+msgid "Overhang Face: {}"
+msgstr "悬垂面: {}"
+
+# 3DPrintToolbox
+msgid ", Clamping {}-Axis"
+msgstr ", 钳制 {}-轴"
+
+# 3DPrintToolbox
+msgid "Align to XY: Skipping object {}. No faces selected"
+msgstr "对齐至XY: 跳过物体 {}. 无选中面"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Volume"
+msgstr "体积"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Area"
+msgstr "表面积"
+
+# 3DPrintToolbox
+msgid "Checks"
+msgstr "检查"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Solid"
+msgstr "实体"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Intersections"
+msgstr "交集"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Degenerate"
+msgstr "退化"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Distorted"
+msgstr "畸变"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Edge Sharp"
+msgstr "锐边"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Overhang"
+msgstr "悬垂"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Check All"
+msgstr "检查全部"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Make Manifold"
+msgstr "流形化"
+
+# 3DPrintToolbox
+msgid "Scale To"
+msgstr "缩放到"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Bounds"
+msgstr "边界"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Align XY"
+msgstr "对齐 XY"
+
+# 3DPrintToolbox
+msgid "Limit for checking zero area/length"
+msgstr "用于检查零面积或零长度的限值"
+
+# 3DPrintToolbox
+msgid "Face Areas"
+msgstr "面的面积"
+
+# 3DPrintToolbox
+msgid "Use normalized normals proportional to face areas for alignment"
+msgstr "使用与面积成比例的规格化法线进行对齐"
+
+# 3DPrintToolbox
+msgid "Scene Scale"
+msgstr "场景缩放"
+
+# 3DPrintToolbox
+msgid "Apply scene scale setting on export"
+msgstr "导出时应用场景缩放设置"
+
+# 3DPrintToolbox
+msgid "Data Layers"
+msgstr "数据层"
+
+# 3DPrintToolbox
+msgid "Export normals, UVs, vertex colors and materials for formats that support it significantly increasing file size"
+msgstr "为受支持的格式导出法向、UV、顶点颜色和材质，会显著增加文件大小"
+
+# 3DPrintToolbox
+msgid "Copy Textures"
+msgstr "复制纹理"
+
+# 3DPrintToolbox
+msgid "Copy textures on export to the output path"
+msgstr "导出到输出路径时复制纹理"
+
+# 3DPrintToolbox
+msgid "Export file format"
+msgstr "导出文件格式"
+
+# 3DPrintToolbox
+msgid "Export Directory"
+msgstr "导出目录"
+
+# 3DPrintToolbox
+msgid "Path to directory where the files are created"
+msgstr "文件的创建目录所在的路径"
+
+# 3DPrintToolbox
+msgid "Export STL, PLY, OBJ files"
+msgstr "导出 STL、PLY、OBJ 文件"
+
+# 3DPrintToolbox
+msgctxt "Operator"
+msgid "Clear Report"
+msgstr "清除报告"
+
+# 3DPrintToolbox
+msgid "Clear report"
+msgstr "清除报告"
